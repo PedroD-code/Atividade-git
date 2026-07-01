@@ -1,0 +1,19 @@
+on:
+   push:
+      -master:
+
+  jobs:
+    verificar: projeto
+    runs-on: ubuntu-latest
+
+    steps:
+    -name: baixar codigo
+    uses: actions/checkout@v4
+
+    -name:   verificar arquivos
+    run
+    echo: "projeto recebido"
+    ls -la
+
+    -name: finalixado
+    run echo: "Pipelina realizada"
