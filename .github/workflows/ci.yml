@@ -19,4 +19,4 @@ jobs:
           ls- la
 
       - name: Finalizado
-        run: echo "Pipeline executado com sucesso"
+        run: echo "Pipeline executado com sucesso!"
